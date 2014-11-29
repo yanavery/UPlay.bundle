@@ -1,0 +1,16 @@
+[
+	{
+		"id": "ip",
+		"type": "text",
+		"label": "UPnP Server IP Address",
+		"default": "192.168.0.1",
+		"option": "text"
+	},
+	{
+		"id": "port",
+		"type": "text",
+		"label": "UPnP Server Port",
+		"default": "50001",
+		"option": "text"
+	}
+]

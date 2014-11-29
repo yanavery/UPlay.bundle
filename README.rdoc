@@ -1,0 +1,44 @@
+== UPlay UPnP/DLNA Plex Video Channel Plug-in
+
+This is the source code to a custom Plex Video Channel plug-in that, once installed on your
+Plex Media Server (PMS), will connect to a designated 3rd party UPnP/DLNA server and offer its
+content on your connected Plex Home Theater (PHT).
+
+- For more information about Plex plug-ins, see https://dev.plexapp.com/
+- For feedback and discussions about this specific Plex plug-in, see https://forums.plex.tv/index.php/topic/129911-uplay-upnpdlna-custom-video-channel-plug-in/
+
+== Dependencies
+
+None, although you will obviously need a Plex setup and a 3rd party UPnP/DLNA server.
+
+
+== What's new in this release?
+
+See the CHANGELOG file for information on what's new.
+
+Follow me on twitter @ http://twitter.com/yanavery for relase updates.
+
+
+== Installation/Usage
+
+- Copy the bundle file (folder) to your PMS Plug-ins folder.
+
+- Using the PMS web U/I, go to the plug-in's configuration screen and provide the IP and port number of your UPnP/DLNA server.
+
+- Using the PHT U/I, go to the actual plug-in and enjoy your content.
+
+
+This plug-in was tested with a Synology UPnP/DLNA media server. It might not work with other UPnP server implementations?
+
+
+== The distribution
+
+This package is distributed as a .bundle file which in reality is a folder. On Mac OSX, to view the folder's content,
+either rename .bundle to some other name or use "Right Mouse Click" + "Show Package Contents" option.
+
+
+== License
+
+Plug-in is licensed under the terms of the MIT License, see the included MIT-LICENSE file.
+
+(C) 2014, Yan Avery
